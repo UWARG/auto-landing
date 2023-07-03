@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dronekit = "==2.9.2"
+future = "==0.18.3"
+lxml = "==4.9.2"
+monotonic = "==1.6"
+pymavlink = "*"
+dronekit-sitl = "*"
+mavproxy = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8.10"
